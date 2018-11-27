@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+}
+
+header{
+background-color: rgb(214, 24, 24);
+display: grid;
+grid-template-columns: 10% 60% repeat(3,10%);
+line-height: 3.4em;
+}
+
+#hjem{
+  grid-column: 3;
+}
+
+nav{
+  text-align: center;
+}
+
+nav li{
+  display: inline-flex;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer{
+
+}
+
+.storsak{
+grid-column: span 3;
+grid-row: span 3;
+margin: 2%;
+}
+
+.middelssak{
+  grid-column: span 2;
+  grid-row: span 2;
+  width: 100%;
+  margin: 2%;
+}
+
+.litensak{
+  grid-column: span 1;
+  grid-row: span 1;
+  margin: 2%;
+}
+
+img{
+  width: 80%;
+}

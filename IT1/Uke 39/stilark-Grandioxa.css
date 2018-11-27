@@ -1,0 +1,36 @@
+body {
+  background-color:#ffe247;
+  background-image: url() ;
+  color: ;
+}
+
+li a {
+  color: #591e09;
+  font-size: 22px;
+  text-decoration: none;
+
+}
+
+p {
+  font-size: 19px;
+}
+
+#logo1 {
+
+}
+
+#pizza1 {
+  margin: 45px;
+  transition: 100000s;
+}
+#pizza2 {
+  margin: 45px;
+  transition: 100000s;
+}
+#pizza1:hover {
+  transform: rotate(97000000deg);
+}
+
+#pizza2:hover {
+  transform: rotate(50000000000deg);
+}
