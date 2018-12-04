@@ -1,0 +1,86 @@
+.navBar{
+  display: grid;
+  grid-template-columns: 15% 17.5% 17.5% 17.5% 17.5% 5% 5% 5%;
+  background-color: rgb(21, 46, 66);
+  line-height: 6vw;
+  transition: 0.7s;
+  align-items: center;
+}
+
+.navBar:hover{
+  background-color: rgb(20, 40, 56);
+  transition: 0.7s;
+}
+
+.navButton{
+  text-decoration: none;
+  font-size: 1.2vw;
+  color: white;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.navButton:hover{
+  color: rgb(199, 199, 199);
+  transition: 0.3s;
+}
+
+.IMGcenter{
+  margin: auto;
+  align-items: center;
+}
+
+.dropdown-arrow{
+
+}
+
+.dropdown{
+  margin: auto;
+  position: relative;
+  display: inline-block;
+  grid-column: 2;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: rgb(20, 40, 56);
+  width: 100%;
+  transition: 0.5s;
+}
+
+.dropdown:hover{
+  color: rgb(199, 199, 199);
+  transition: 0.9s;
+}
+
+.dropbtn{
+  color: white;
+  background-color: transparent;
+  font-size: 1.2vw;
+  border: none;
+  transition: 0.5s;
+}
+
+.dropbtn:hover{
+  color: rgb(199, 199, 199);
+  transition: 0.3s;
+}
+
+.dropdown-content a{
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content > a:hover{
+  background-color: rgb(195, 195, 195);
+}
+
+.dropdown:hover > .dropdown-content{
+  display: block;
+}
+
+.ButtonCatLink{
+  padding-left: 1vw;
+}
